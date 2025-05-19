@@ -8,5 +8,5 @@ let contadorArrayFahrenheit = 0;
 for (let i = 0; i < temperaturasCelsius.length; i++) {
     temperaturasFahrenheit[contadorArrayFahrenheit] = (temperaturasCelsius[i] * 9) / 5 + 32;
     contadorArrayFahrenheit++;
-} console.table(temperaturasCelsius)
-console.table(temperaturasFahrenheit)
+} console.table(temperaturasCelsius);
+console.table(temperaturasFahrenheit);
